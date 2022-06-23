@@ -334,6 +334,22 @@ p{
     width: 433px;
 }
 
+.choose-item:first-child{
+    position: relative;
+}
+
+.choose-item:first-child::before{
+    position: absolute;
+    top: -8%;
+    left: -12%;
+    width: 140px;
+    height: 144px;
+    content: "";
+    background-image: url("../images/best-before.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .choose-item:not(:last-child){
     margin-right: 20px;
 }
@@ -376,14 +392,15 @@ p{
     margin-left: 20px;
     margin-bottom: 50px;
     padding: 50px 0;
-    background-image: url("../images/works-bg.svg");
-    background-size: cover;
+    background-image: url("../images/lines.svg"), url("../images/works-bg.svg");
+    background-size: 966px 60px, cover;
     background-repeat: no-repeat;
+    background-position: calc(50% - 187px) calc(50% - 193px), center;
 }
 
 .works-title{
     margin-top: 0;
-    margin-bottom: 80px;
+    margin-bottom: 160px;
     text-align: center;
 }
 
@@ -405,6 +422,18 @@ p{
 }
 
 .works-list::after{
+    position: absolute;
+    top: -59%;
+    right: 3%;
+    width: 192px;
+    height: 140px;
+    background-image: url("../images/but-first.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.works-list::before{
     position: absolute;
     top: -59%;
     right: 3%;
