@@ -532,3 +532,214 @@ p{
     margin-right: 30px;
 }
 
+/* ABOUT US PAGE BEGIN */
+
+.about-hero{
+    padding-bottom: 261px;
+}
+
+.about-hero-info{
+    width: 372px;
+}
+
+.about-hero-text{
+    margin-bottom: 0;
+}
+
+.about-hero-img-box{
+    bottom: -119%;
+    height: 596px;
+    background-image: url("../images/about-hero-img.png");
+}
+
+/* commitment section begin */
+
+.commitment-box{
+    padding-top: 160px;
+    padding-bottom: 200px;
+}
+
+.commitment-info-box{
+    position: relative;
+    z-index: 2;
+    display: flex;
+}
+
+.commitment-info-box::before{
+    position: absolute;
+    top: -7%;
+    left: -11%;
+    z-index: 4;
+    width: 402px;
+    height: 300px;
+    background-image: url("../images/leap.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+
+}
+
+.commitment-img{
+    position: relative;
+    z-index: 6;
+    margin-left: 133px;
+    margin-right: 185px;
+}
+
+.commitment-info{
+    width: 626px;
+}
+
+.commitment-title{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: var(--font-weight);
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+}
+
+.commitment-text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+
+/* quality-section begin */
+
+.quality{
+    padding-top: 140px;
+}
+
+.quality-box{
+    margin: 20px;
+    padding-top: 100px;
+    padding-bottom: 118px;
+}
+
+.quality-info-box{
+    position: relative;
+    display: flex;
+}
+
+.quality-info{
+    margin-right: 38px;
+    margin-left: 113px;
+    width: 639px;
+}
+
+.quality-title{
+    margin-bottom: 24px;
+}
+
+.quality-text{
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.quality-img{
+    position: absolute;
+    top: -180px;
+    right: -16px;
+}
+
+/* quarters section begin */
+
+.quarters-box{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-image: url("../images/works-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.quarters-title{
+    margin-top: 0;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.quarters-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quarters-item{
+    position: relative;
+    z-index: 2;
+    width: 433px;
+    padding: 187px 0 40px 20px;
+    background-color: #F8F8F2;
+}
+
+.quarters-item::before{
+    position: absolute;
+    top: 45px;
+    right: 55px;
+    z-index: 4;
+    width: 120px;
+    height: 143px;
+    background-image: url("../images/uk.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.quarters-item:first-child{
+    padding-top: 140px;
+}
+
+.quarters-item:nth-child(2)::before{
+    height: 120px;
+    background-image: url("../images/australia.svg");
+}
+
+.quarters-item:nth-child(3)::before{
+    height: 107px;
+    background-image: url("../images/canada.svg");
+}
+
+.quarters-heading{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.quarters-item-box{
+    width: 178px;
+}
+
+.address-link{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.number{
+    display: inline-block;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    text-align: left;
+}
