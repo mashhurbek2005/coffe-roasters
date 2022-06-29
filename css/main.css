@@ -53,6 +53,19 @@ p{
     margin: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container{
     max-width: 1380px;
     margin: 0 auto;
@@ -740,7 +753,7 @@ p{
     color: #333333;
 }
 
-.number{
+.about-number{
     display: inline-block;
     margin: 0;
     font-size: 18px;
@@ -856,3 +869,196 @@ p{
 }
 
 /* MODAL */
+
+
+/* Create plan page begin */
+
+.create-hero{
+    padding-bottom: 285px;
+}
+
+.createplan-hero-img-box{
+    bottom: -146%;
+    background-image: url("../images/create-hero-bg.png");
+}
+
+.create-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.drink-box{
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.create-list::before{
+    background-image: none;
+}
+
+.create-list::after{
+    background-image: none;
+}
+
+.create-item::after{
+    background-image: none;
+}
+
+.drink-top-list{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.drink-top-item{
+    margin-bottom: 35px;
+}
+
+.drink-top-link{
+    font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+font-variant: small-caps;
+
+color: #555555;
+}
+
+.about-work-box{
+    padding-top: 160px;
+    background-position: calc(50% - 187px) calc(50% - 264px), center;
+}
+
+.drink-info-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    display: block;
+}
+
+.radio-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+summary{
+    margin-bottom: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+summary::after{
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    background-image: url("../images/arrow-down.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.drink-summary{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.radio-info-box{
+    width: 208px;
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 16px;
+    padding-bottom: 56px;
+    background-color: hsl(167, 84%, 25%, 0.2);
+}
+
+.capsule-info-box{
+    padding-bottom: 80px;
+}
+
+.form-input:checked ~ .radio-info-box{
+   
+    background-color: #0A775F;
+}
+
+.form-input:checked ~ .radio-info-box .radio-title{
+    color: #fff;
+}
+
+.form-input:checked ~ .radio-info-box .radio-text{
+    color: #fff;
+}
+
+.radio-title{
+    margin-bottom: 10px;
+    font-weight: var(--main-font-weight-middle);
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.radio-text{
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.drink-form{
+    width: 660px;
+}
+
+.form-details{
+    margin-bottom: 60px;
+}
+
+.form-details:last-child{
+    margin-bottom: 100px;
+}
+
+.form-bottom-box{
+    width: 660px;
+    margin-bottom: 20px;
+    padding: 40px 22px 40px 20px;
+    background-color: #C99B67;
+}
+
+.form-bottom-box-title{
+    margin-top: 0;
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.form-bottom-box-text{
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.form-bottom-box-strong{
+    font-weight: 500;
+font-size: 24px;
+line-height: 34px;
+/* identical to box height, or 142% */
+
+
+color: #333333;
+}
+
+.form-link{
+    width: 201px;
+    margin-left: 459px;
+    border: none;
+}
