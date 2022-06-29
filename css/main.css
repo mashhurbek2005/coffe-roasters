@@ -927,6 +927,7 @@ p{
 font-size: 28px;
 line-height: 33px;
 /* identical to box height */
+text-transform: uppercase;
 
 font-variant: small-caps;
 
