@@ -900,6 +900,14 @@ p{
     background-image: none;
 }
 
+.create-list{
+    justify-content: space-between;
+}
+
+.create-item{
+    margin-right: 20px;
+}
+
 .create-item::after{
     background-image: none;
 }
