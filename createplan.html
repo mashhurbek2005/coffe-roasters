@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Plan</title>
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
 </head>
 <body>
     <header class="site-header">
@@ -62,7 +63,7 @@
         </section>
 
         <section class="works">
-            <div class="works-box create-box about-work-box">
+            <div class="works-box create-box about-work-box servis-works-box">
                 <div class="container">
                     <div class="works-info-box drink-info-box">
                         <h2 class="visually-hidden">
@@ -275,7 +276,7 @@
                                         <label class="radio-label">
                                             <input class="visually-hidden form-input" type="radio" name="user_selected_coffee_amount" value="250g">
 
-                                            <span class="radio-info-box capsule-info-box">
+                                            <span class="radio-info-box">
                                                 <span class="radio-title">
                                                     250g
                                                 </span>
@@ -324,7 +325,7 @@
                                         <label class="radio-label">
                                             <input class="visually-hidden form-input" type="radio" name="coffee_grinding_type" value="Wholebean">
 
-                                            <span class="radio-info-box capsule-info-box">
+                                            <span class="radio-info-box wholebean-info-box">
                                                 <span class="radio-title">
                                                     Wholebean
                                                 </span>
@@ -339,7 +340,7 @@
                                         <label class="radio-label">
                                             <input class="visually-hidden form-input" type="radio" name="coffee_grinding_type" value="Filter">
 
-                                            <span class="radio-info-box">
+                                            <span class="radio-info-box wholebean-info-box">
                                                 <span class="radio-title">
                                                     Filter
                                                 </span>
@@ -373,7 +374,7 @@
                                         <label class="radio-label">
                                             <input class="visually-hidden form-input" type="radio" name="coffee_deliver_time" value="Every week">
 
-                                            <span class="radio-info-box capsule-info-box">
+                                            <span class="radio-info-box">
                                                 <span class="radio-title">
                                                     Every week
                                                 </span>
@@ -426,11 +427,12 @@
                                     </p>
                                 </div>
 
-                                <button class="hero-link js-modal-open-button form-link">
-                                    Create me plan
-                                </button>
+                                
                                         
                             </form>
+                            <button class="hero-link js-modal-open-button form-link">
+                                Create me plan
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -492,5 +494,34 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal">
+
+        <div class="modal-window">
+          <h3 class="modal-title">
+            order Summary
+          </h3>
+    
+          <div class="modal-content-box">
+            <p class="modal-text">
+                “I drink my coffee as <strong class="modal-strong">Filter</strong> , with a <strong class="modal-strong">Decaf</strong>  type of bean. <strong class="modal-strong">250g</strong>  ground ala <strong class="modal-strong">Cafetiére</strong> , sent to me <strong class="modal-strong">Every Week</strong>".
+              </p>
+        
+              <p class="modal-bottom-text">
+                Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout. 
+              </p>
+        
+              <div class="modal-bottom-box">
+                <strong class="price">$14.00/ mo</strong>
+
+                <button class="modal-button js-close-modal" type="button">Checkout</button>
+              </div>
+        
+              
+            </div>
+          </div>
+      </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
