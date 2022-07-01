@@ -925,7 +925,7 @@ p{
     list-style: none;
 }
 
-.drink::before{
+/* .drink::before{
     content: "";
     width: 100%;
     height: 100%;   
@@ -939,6 +939,22 @@ p{
     background-position: calc(50% - 720px) calc(50% - 126px),
      calc(50% + 784px) calc(50% - 630px),
      calc(50% - 790px) calc(50% + 560px);
+} */
+
+.drink{
+    background-image: url("../images/leap.svg"), 
+    url("../images/leap-middlle.svg"), 
+    url("../images/leap-bottom.svg");
+    background-repeat: no-repeat;
+    background-size: 402px 300px, 392px 477px, 316px 269px;
+    background-position: calc(50% - 720px) calc(50% - 126px),
+    calc(50% + 784px) calc(50% - 630px),
+    calc(50% - 790px) calc(50% + 560px);
+}
+
+.drink-box{
+    position: relative;
+    z-index: -2;
 }
 
 .drink-top-item{
